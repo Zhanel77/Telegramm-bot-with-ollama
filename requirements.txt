@@ -1,0 +1,9 @@
+telebot
+chromadb
+sentence-transformers
+llama-index
+duckduckgo-search
+requests
+beautifulsoup4
+uuid
+
