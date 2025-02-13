@@ -154,7 +154,7 @@ def handle_message(message):
     messages.append(ChatMessage(role="user", content=user_input))
 
     # Use Ollama
-    llm = Ollama(model="llama3.2", request_timeout=120.0)
+    llm = Ollama(model="llama3.2", request_timeout=90.0)
     bot.send_message(message.chat.id, " 🤖 Generating response...")
 
     try:

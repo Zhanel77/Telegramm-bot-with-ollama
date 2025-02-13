@@ -74,4 +74,86 @@ git commit -m "Added a new feature"
 git push origin feature-branch
 ```
 
-# AUTHOR: Zhanel77
+
+# AI-Powered Chatbot
+
+This project is an AI chatbot that allows users to:
+
+- Upload and process files (PDF, TXT)
+- Store text data in SQLite and ChromaDB
+- Interact with AI using Llama and ChromaDB
+- Search for information on the web using DuckDuckGo
+- Analyze and visualize data with a word cloud
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-repository/ai-chatbot.git
+cd ai-chatbot
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the application
+
+```bash
+streamlit run app.py
+```
+
+## 🛠 Features
+
+### 1️⃣ Add Data ("Add data")
+
+- Upload PDF and TXT files
+- Extract text
+- Store text in ChromaDB
+- Save metadata in SQLite
+
+### 2️⃣ View Data ("Show data")
+
+- Display uploaded documents from ChromaDB
+
+### 3️⃣ Chat with AI ("Chat with AI")
+
+- Create and manage chats
+- Search for information in the knowledge base (ChromaDB)
+- Generate responses using the Llama model
+- Perform web searches when needed
+
+### 4️⃣ Data Analysis ("Visualize Insights")
+
+- Generate a word cloud from uploaded documents
+
+## 📂 Project Structure
+
+```
+├── app.py                # Main application code
+├── requirements.txt      # Dependency list
+├── README.md             # Project documentation
+├── documents.db          # SQLite database (auto-generated)
+├── chroma_db/            # Vector storage (ChromaDB)
+```
+
+## 🛠 Technologies Used
+
+- **Streamlit** - User interface
+- **ChromaDB** - Vector storage
+- **SQLite** - Database
+- **SentenceTransformer** - Text processing
+- **LlamaIndex** - AI-powered responses
+- **DuckDuckGo Search** - Web search
+- **WordCloud** - Data visualization
+
+## 🔥 Developers
+
+Kuandyk Zhanel, Seipolla Koblandy, Kazbekova Zhaniya
+
+📌 **Note**: To run the AI chatbot, make sure Ollama is installed and the `llama3.2` model is downloaded.
+
+
